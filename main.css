@@ -85,7 +85,7 @@ h2 {
 }
 
 input {
-  width: 100%; 
+  width: 15cm; 
   padding: 10px 15px;
   font-size: 16px;
   border-radius: 3px;
@@ -94,7 +94,7 @@ input {
 }
 
 textarea {
-  width: 100%; 
+  width: 15cm; 
   padding: 10px 15px;
   font-size: 16px;
   border-radius: 3px;
@@ -152,7 +152,12 @@ button {
   font-size: 0.5cm;
   color: #FFF;
   margin-top: 0.2cm;
-  margin-left: 7cm;
+  margin-left: 6cm;
+}
+
+.finish {
+  display: flex;
+  align-items: flex-start;
 }
 
 .note {
@@ -160,6 +165,7 @@ button {
   margin: 2em 0;
   border: double 5px #4ec4d3;
   width: 14cm;
+  margin-left: 1cm;
 }
 
 .note p {
