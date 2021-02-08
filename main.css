@@ -121,7 +121,7 @@ input:focus {
 }
 
 .contaa {
-  margin-top: 10cm;
+  margin-top: 1cm;
 }
 
 h2:before {
@@ -251,3 +251,33 @@ button {
               transform: perspective(800px) scale(1) rotateX(0);
     }
 }
+
+h3 {
+  font-size: 6mm;
+}
+
+li {
+  font-size: 5mm;
+  margin-bottom: 2mm;
+}
+
+.urls {
+  font-size: 5mm;
+  margin-left: 2mm;
+}
+
+.testing {
+  display: flex;
+  line-height: 4mm;
+}
+
+.contaa2 {
+  padding: 1em;
+  margin: 2em auto;
+  width:100%;
+  color: #696969;
+  background: #f0ffff;
+  border-top: solid 15px #191970;
+  width: 25cm;
+  margin-left: 0cm;
+  }
