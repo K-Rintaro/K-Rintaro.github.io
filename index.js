@@ -1,13 +1,9 @@
 const express = require('express')
 const app = express()
+const path = require('path')
 const port = process.env.TOKEN || 3000;
 
-app.use(express.static('public'))
-
-app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/index.html');
-});
-
-app.listen(port, () => {
-    console.log(`this app listeming on port ${port}`)
-})
+app  
+.use(express.static(path.join(__dirname, 'public')))
+.get('/', (req, res) => res.render('index'))
+.listen(port, () => console.log(`Listening on ${ port }`))
